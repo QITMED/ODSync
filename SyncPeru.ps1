@@ -1,0 +1,4 @@
+﻿# URL de sincronización capturada desde OneDrive
+$SyncURL = "odopen://sync?userId=4759e515%2D644f%2D4273%2Dafbd%2D7aba3ff98989&userEmail=$userEmailEncoded&isSiteAdmin=0&siteId=%7B387262ca%2D560f%2D4a81%2Da818%2Da68b64471361%7D&webId=%7B801a2ea9%2Dee89%2D41ad%2D854d%2D26cf6d69e442%7D&webTitle=FileServer%201&webTemplate=21&webLogoUrl=%5Flayouts%2F15%2Fimages%2Fsiteicon%2Epng&webUrl=https%3A%2F%2Fqmedios%2Dmy%2Esharepoint%2Ecom%2Fpersonal%2Ffs1%5Fagenciaquiroga%5Fcom&onPrem=0&libraryType=2&listId=9d868cb7%2D6c67%2D45c4%2D9e44%2Da10b52a939d2&listTitle=Documentos&folderId=84bd3d6e%2Da89b%2D46f7%2Dba59%2Df474cdddda8d&folderName=Planning&folderUrl=https%3A%2F%2Fqmedios%2Dmy%2Esharepoint%2Ecom%2Fpersonal%2Ffs1%5Fagenciaquiroga%5Fcom%2FDocuments%2FPeru%2FPlanning&scope=OPENFOLDER"
+# Ejecutar el comando para forzar la sincronización en OneDrive
+Start-Process $SyncURL
